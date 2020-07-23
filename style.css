@@ -1,0 +1,162 @@
+body {
+  font-family: arial, sans-serif !important;
+  font-size: 16px;
+}
+
+#main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 130px;
+}
+
+
+#header-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  font-size: 0.8125em;
+  margin: 15px 40px 0 0;
+}
+
+#header-links li {
+  padding: 0 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 6px);
+  grid-template-rows: repeat(3, 6px);
+  margin-right: 8px;
+}
+
+.grid-cell {    
+  border: 1px solid white;
+  background-color: #727272;
+}
+
+#profile-picture {
+  background: lightgray;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  line-height: 28px;
+}
+
+#profile-picture i {
+  color:  white;
+  text-align: center;
+}
+
+#search-form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#search-field {
+  width: 32.95rem;
+  height: 2.5rem;
+  border-radius: 0 1.875rem 1.875rem 0;
+  border-left: 1px solid white;
+}
+
+.input-group {
+  justify-content: center;
+}
+
+#search-glass {
+  background-color: white;
+  border-radius: 1.875rem 0 0 1.875rem;
+  border-right: 1px solid white;
+}
+
+#search-glass > i {
+  color: lightgray;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 0;
+}
+
+#normal-search, #feeling-lucky {
+  font-size: 0.875rem;
+  color: #5f6368;
+  background-color: #f2f2f2;
+  margin: 20px 10px 0px;
+}
+
+.languages-offered {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 19.18rem;
+  height: 2.125rem;
+  margin: 1.25rem 0 0 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.8125rem;
+}
+
+.languages-offered p {
+  margin: 0;
+}
+
+.languages-offered li {
+  color: #1a0dab
+}
+
+#footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  flex-direction: column;
+  background-color: #f2f2f2;
+  color: #717171;
+  font-size: 0.937rem;
+}
+
+#country {
+  padding: 10px 0 10px 40px;
+  border-bottom: 1px solid #d3c8c8;
+}
+
+.lower-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#site-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 25rem;
+  margin-bottom: 0px;
+  padding: 10px 0px 10px 40;
+  list-style: none;
+  margin-bottom: 0px;
+}
+
+#terms-and-conditions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 13.5rem;
+  margin-bottom: 0px;
+  padding: 10px 40px 10px 0;
+  list-style: none;
+}
